@@ -3,7 +3,6 @@ package com.app.restaurant.brownleaf;
 import android.app.Application;
 import android.content.Context;
 
-import com.app.restaurant.brownleaf.util.Constants;
 import com.microsoft.azure.mobile.MobileCenter;
 import com.microsoft.azure.mobile.analytics.Analytics;
 import com.microsoft.azure.mobile.crashes.Crashes;
@@ -21,7 +20,7 @@ public class BrownLeafApp extends Application {
         super.onCreate();
         mContext = this;
 
-        MobileCenter.start(this, Constants.MOBILE_CENTER_KEY,
+        MobileCenter.start(this, "393b0fa1-4d5a-4be3-84e9-90fb7528d561",
                 Analytics.class, Crashes.class);
     }
 
