@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.restaurant.brownleaf">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
+
+    <application
+        android:name=".BrownLeafApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".BaseActivity"></activity>
+        <activity
+            android:name=".screens.ExpandActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_nav_menu"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".screens.MyOrderActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:parentActivityName=".screens.NavMenuActivity"
+            android:screenOrientation="portrait">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".screens.NavMenuActivity" />
+        </activity>
+
+        <receiver android:name=".receiver.MyLocalReceiver">
+            <intent-filter>
+                <action android:name="com.app.restaurant.brownleaf.android.USER_ACTION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

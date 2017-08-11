@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/food_list_item_height"
+    android:layout_margin="@dimen/quad_padding"
+    android:layout_weight="1"
+    android:background="@drawable/row_bg"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".3"
+        android:orientation="vertical"
+        android:padding="@dimen/quad_padding">
+
+        <ImageView
+            android:id="@+id/thumbImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:src="@drawable/leaf" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".7"
+        android:orientation="vertical"
+        android:padding="@dimen/quad_padding">
+
+        <TextView
+            android:id="@+id/foodItemNameTxt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/customer_name_ll_small"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/text_border_white"
+            android:ellipsize="end"
+            android:gravity="center_horizontal|center_vertical"
+            android:singleLine="true"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/foodIngredientTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ellipsize="end"
+                    android:gravity="center|left"
+                    android:paddingLeft="@dimen/double_hex_padding"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_title" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/foodPriceTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/customer_name_ll_small"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/double_hex_padding"
+                    android:textAllCaps="true"
+                    android:textColor="@color/matte_red"
+                    android:textSize="@dimen/text_size_tiny_large_title"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/dual_padding"
+                    android:background="@drawable/layout_border_ash">
+
+
+                    <ImageView
+                        android:id="@+id/upImg"
+                        android:layout_width="@dimen/small_img_w"
+                        android:layout_height="@dimen/small_img_h"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:padding="@dimen/dual_padding"
+                        android:src="@drawable/up" />
+
+                    <ImageView
+                        android:id="@+id/downImg"
+                        android:layout_width="@dimen/small_img_w"
+                        android:layout_height="@dimen/small_img_h"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:padding="@dimen/dual_padding"
+                        android:src="@drawable/down" />
+
+
+                    <TextView
+                        android:text="@string/zero"
+                        android:id="@+id/orderItemNumberTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/downImg"
+                        android:layout_toRightOf="@id/upImg"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:maxLength="2"
+                        android:textAllCaps="true"
+                        android:textColor="@color/matte_red"
+                        android:textSize="@dimen/text_size_title"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

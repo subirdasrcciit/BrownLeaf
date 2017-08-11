@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/press_color_effect"
+    tools:context="com.app.restaurant.brownleaf.screens.fragments.FoodListFragment">
+
+
+    <RelativeLayout
+        android:id="@+id/btnLL"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/confirm_button_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent" />
+
+        <Button
+            android:id="@+id/confirmOrderBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/ten_padding"
+            android:background="@drawable/text_border_white"
+            android:text="@string/confirm_order"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btnLL"
+        android:scrollbars="none" />
+
+
+</RelativeLayout>

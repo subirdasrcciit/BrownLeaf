@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/backImg"
+        android:layout_width="@dimen/activity_horizontal_margin"
+        android:layout_height="@dimen/activity_horizontal_margin"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/back" />
+
+    <com.app.restaurant.curbdash.customviews.MyTextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_large_title"
+        android:textStyle="bold" />
+
+</RelativeLayout>

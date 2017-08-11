@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">BrownLeaf</string>
+    <string name="please_fill_all_details">Please fill all the details</string>
+    <string name="orders">Orders</string>
+    <string name="empty"></string>
+    <string name="title_activity_nav_menu">BrownLeaf</string>
+    <string name="menu">Menu</string>
+    <string name="my_orders">My Orders</string>
+    <string name="brown_leaf_res">Brown Leaf Restaurants</string>
+    <string name="brown_leaf_caption">We serve you the best</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="confirm_order">Confirm Order</string>
+
+    <string name="food_price">RS %1$s</string>
+    <string name="zero">0</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Menu</item>
+        <item>My Orders</item>
+    </string-array>
+    <string name="title_activity_my_order">MyOrderActivity</string>
+    <string name="Table">Table</string>
+    <string name="Date">Date</string>
+    <string name="Time">Time</string>
+    <string name="Item">Item</string>
+    <string name="Quantity">Quantity</string>
+    <string name="Price">Price</string>
+
+    <string name="total_price">Total %1$s</string>
+    <string name="please_order_food_with_proper_quantity">Please order food with proper quantity</string>
+    <string name="loading">Loading...</string>
+    <string name="please_check_network_conn">Please check your network connection.</string>
+    <string name="display_price">$%1$s</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="empty_cell">#EBF4FA</color>
+    <color name="occupied_cell">#B4CFEC</color>
+    <color name="oup_blue">#002147</color>
+    <color name="link_color">#3366BB</color>
+    <color name="cyan">#00ffff</color>
+    <color name="black">#000000</color>
+    <color name="press_color_effect">#D4D4D4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#80000000</color>
+    <color name="one_third_transparent">#C0000000</color>
+    <color name="ash">#a3a0a0</color>
+    <color name="yellow">#f5eb2c</color>
+    <color name="green">#97f25e</color>
+    <color name="actionbarbg">#5c6cd2</color>
+    <color name="brawn_light">#af704c</color>
+    <color name="brawn_dark">#7d4b2e</color>
+    <color name="brawn_extra_light">#d7ae89</color>
+    <color name="matte_red">#ecce4b4b</color>
+    <color name="orange">#ea7130</color>
+</resources>

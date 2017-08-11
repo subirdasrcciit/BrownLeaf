@@ -1,0 +1,54 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="view_margin_large">20dp</dimen>
+    <dimen name="view_margin_very_large">35dp</dimen>
+    <dimen name="view_margin_extra_very_large">40dp</dimen>
+
+
+    <dimen name="layout_padding_margin_ten">10dp</dimen>
+    <dimen name="layout_padding_margin_ten_half">5dp</dimen>
+
+    <dimen name="text_size_extra_large_title">30sp</dimen>
+    <dimen name="text_size_very_large_title">25sp</dimen>
+    <dimen name="text_size_large_title">20sp</dimen>
+    <dimen name="text_size_tiny_large_title">18sp</dimen>
+    <dimen name="text_size_title">15sp</dimen>
+    <dimen name="text_size_value">10sp</dimen>
+    <dimen name="text_size_discribe">12sp</dimen>
+    <dimen name="small_padding">1dp</dimen>
+    <dimen name="dual_padding">2dp</dimen>
+    <dimen name="quad_padding">4dp</dimen>
+    <dimen name="double_hex_padding">8dp</dimen>
+    <dimen name="ten_padding">10dp</dimen>
+
+    <dimen name="small_img_h">40dp</dimen>
+    <dimen name="small_img_w">40dp</dimen>
+
+    <dimen name="tiny_small_img_h">20dp</dimen>
+    <dimen name="tiny_small_img_w">20dp</dimen>
+
+    <dimen name="customer_name_ll">60dp</dimen>
+    <dimen name="customer_name_ll_small">40dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">210dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="food_list_item_height">140dp</dimen>
+    <dimen name="confirm_button_height">60dp</dimen>
+
+    <dimen name="my_order_top_view">100dp</dimen>
+    <dimen name="my_order_bottom_view">40dp</dimen>
+    <dimen name="restaurant_item_row_h">170dp</dimen>
+    <dimen name="restaurant_item_row_card_view_h">140dp</dimen>
+    <dimen name="restaurant_banner_img_h">100dp</dimen>
+    <dimen name="restaurant_banner_img_w">120dp</dimen>
+    <dimen name="restaurant_cart_img_h">40dp</dimen>
+    <dimen name="restaurant_cart_img_w">40dp</dimen>
+
+
+    <dimen name="thirteen_padding">13dp</dimen>
+    <dimen name="fifteen_padding">15dp</dimen>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding_margin_ten">
+
+    <LinearLayout
+        android:id="@+id/dialog_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_padding_margin_ten"
+        android:orientation="vertical">
+
+
+        <com.oup.executivedashboard.customviews.MyTextView
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/small_padding"
+            android:layout_marginTop="@dimen/quad_padding"
+            android:background="@color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/small_padding"
+            android:background="@color/black" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/dialog_msg_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_title_layout"
+        android:layout_margin="@dimen/layout_padding_margin_ten"
+        android:orientation="vertical">
+
+        <com.oup.executivedashboard.customviews.MyTextView
+            android:id="@+id/dialog_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="left"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_value"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_msg_layout"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_yes"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_margin="@dimen/layout_padding_margin_ten"
+                android:layout_weight="1"
+                android:background="@drawable/homepage_button_selector"
+                android:clickable="true"
+                android:padding="@dimen/layout_padding_margin_ten_half"
+                android:textColor="@color/oup_blue"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_no"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_margin="@dimen/layout_padding_margin_ten"
+                android:layout_weight="1"
+                android:background="@drawable/homepage_button_selector"
+                android:clickable="true"
+                android:padding="@dimen/layout_padding_margin_ten_half"
+                android:textColor="@color/oup_blue"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
